@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1764776414210,
+      "tag": "0000_third_morgan_stark",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1764780557873,
+      "tag": "0001_glorious_johnny_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764853759235,
+      "tag": "0002_many_the_liberteens",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1766505045110,
+      "tag": "0003_futuristic_carmella_unuscione",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1766505088634,
+      "tag": "0004_careful_fenris",
+      "breakpoints": true
+    }
+  ]
+}
