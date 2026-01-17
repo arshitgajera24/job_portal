@@ -16,7 +16,6 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
 
 const Registration:React.FC = () => {
-
     const {
         register,
         handleSubmit,
@@ -26,9 +25,7 @@ const Registration:React.FC = () => {
     } = useForm({
         resolver: zodResolver(registerUserWithConfirmSchema),
     });
-
     const router = useRouter();
-
     const [showPassword, setShowPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
