@@ -20,9 +20,7 @@ const ExployerDashboard = async () => {
             </h1>
             <p className='text-muted-foreground'>Here is Your Daily Activities and Application</p>
         </div>
-
         <StatsCards />
-
         <EmployeeProfileCompletionStatus />
     </div>
   )
