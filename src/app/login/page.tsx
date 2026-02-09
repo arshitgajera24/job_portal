@@ -14,7 +14,6 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useRouter } from 'next/navigation';
 
-
 const Login:React.FC = () => {
 
     const {
@@ -29,7 +28,6 @@ const Login:React.FC = () => {
     const router = useRouter();
 
     const [showPassword, setShowPassword] = useState(false);
-
 
     const handleLogin = async (data: LoginUserDataType) => {
         try {
