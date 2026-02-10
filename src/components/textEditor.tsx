@@ -226,7 +226,6 @@ function LinkComponent({editor, children}: {
     )
 }
 
-
 export function BubbleMenu({ editor }: {editor: Editor}) {
     const editorState = useEditorState({editor, selector : (ctx) => {
         return {
