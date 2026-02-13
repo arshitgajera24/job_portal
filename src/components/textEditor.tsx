@@ -52,7 +52,6 @@ const Tiptap = ({content, onChange}: {
 }
 
 const Toolbar = ({editor}: {editor: Editor}) => {
-
     const editorState = useEditorState({editor, selector : (ctx) => {
         return {
             isBold: ctx.editor.isActive("bold") ?? false,
